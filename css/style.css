@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFF;
+}
+
+.title {
+  height: 20vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.green-counter, .red-counter{
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 15px;
+  display : none;
+}
+
+.green-counter {
+  background-color: green;
+}
+
+.red-counter {
+  background-color: red
+}
+
+h1:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.container {
+  width: auto;
+  height: 80vh;
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.square {
+  height: 90px;
+  width: 91px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.square:hover {
+  cursor: pointer;
+}
